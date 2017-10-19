@@ -16,6 +16,6 @@
      data-source: pass-fail
    - module: passfail
      criterias:
-     - avg-rt>550ms for 30s, continue as failed
-     - failures>30% for 10s, continue as failed
+     - avg-rt>550ms for 30s, stop as failed
+     - failures>30% for 10s, stop as failed
      - failures>70% for 15s, stop as failed
