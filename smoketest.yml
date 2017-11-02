@@ -14,8 +14,8 @@
    - module: junit-xml
      filename: report.xml
      data-source: pass-fail
-   - module: passfail
-     criterias:
-     - avg-rt>550ms for 30s, stop as failed
-     - failures>30% for 10s, stop as failed
-     - failures>70% for 15s, stop as failed
+#   - module: passfail
+#     criterias:
+#     - avg-rt>550ms for 30s, stop as failed
+#     - failures>30% for 10s, stop as failed
+#     - failures>70% for 15s, stop as failed
