@@ -1,9 +1,12 @@
 ---
  execution:
+ -scenario: simple
    concurrency: 10
    ramp-up: 1m
    hold-for: 2m
-   scenario:
+   
+   scenarios:
+     simple:
      script: blazedemo.jmx
  #    properties:
  #        hostname: EXAMPLE_HOST.COM
