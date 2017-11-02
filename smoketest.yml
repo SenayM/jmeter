@@ -5,15 +5,15 @@
    hold-for: 2m
    scenario:
      script: blazedemo.jmx
-     properties:
-         hostname: EXAMPLE_HOST.COM
+ #    properties:
+ #        hostname: EXAMPLE_HOST.COM
   
  reporting:
    - module: blazemeter
      test: Smoke Test
    - module: junit-xml
      filename: report.xml
-     data-source: pass-fail
+#     data-source: pass-fail
 #   - module: passfail
 #     criterias:
 #     - avg-rt>550ms for 30s, stop as failed
